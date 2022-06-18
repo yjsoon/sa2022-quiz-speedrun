@@ -38,7 +38,7 @@ struct ContentView: View {
                     isAlertShown = true
                     isCorrect = false
                 } label: {
-                    QuizButton(questions[questionIndex].option1, color: .red)
+                    QuizButton(questions[questionIndex].option1, color: .pink)
                 }
                 Button {
                     isAlertShown = true
