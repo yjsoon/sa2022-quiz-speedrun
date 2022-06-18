@@ -44,7 +44,7 @@ struct ContentView: View {
                     isAlertShown = true
                     isCorrect = false
                 } label: {
-                    QuizButton(questions[questionIndex].option2, color: .blue)
+                    QuizButton(questions[questionIndex].option2, color: .teal)
                 }
             }
             HStack {
