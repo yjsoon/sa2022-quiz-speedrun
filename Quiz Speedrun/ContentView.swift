@@ -10,9 +10,9 @@ import SwiftUI
 struct ContentView: View {
     
     let questions = [
-        QuizQuestion(title: "What is the day today?", option1: "Monday", option2: "Tuesday", option3: "Wednesday", option4: "Thursday"),
-        QuizQuestion(title: "Who is your instructor", option1: "ZJ", option2: "XZ", option3: "AB", option4: "YJ"),
-        QuizQuestion(title: "Where are we having lessons?", option1: "Banana", option2: "Orange", option3: "Pineapple", option4: "Apple")
+        QuizQuestion(title: "What is the day today?", option1: "Monday", option2: "Tuesday", option3: "Wednesday", option4: "Thursday", correctOption: .option4),
+        QuizQuestion(title: "Who is your instructor", option1: "ZJ", option2: "XZ", option3: "AB", option4: "YJ", correctOption: .option4),
+        QuizQuestion(title: "Where are we having lessons?", option1: "Banana", option2: "Orange", option3: "Pineapple", option4: "Apple", correctOption: .option2)
     ]
     
     @State var questionIndex = 0
