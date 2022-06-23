@@ -11,7 +11,8 @@ import SwiftUI
 struct Quiz_SpeedrunApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            BouncyView()
         }
     }
 }

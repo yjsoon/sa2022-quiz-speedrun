@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321085912864382B00662F66 /* BouncyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321085902864382B00662F66 /* BouncyView.swift */; };
+		321085932864384700662F66 /* BouncyView+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321085922864384700662F66 /* BouncyView+SwiftUI.swift */; };
 		AF94C688285AC3090066B49C /* Quiz_SpeedrunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF94C687285AC3090066B49C /* Quiz_SpeedrunApp.swift */; };
 		AF94C68A285AC3090066B49C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF94C689285AC3090066B49C /* ContentView.swift */; };
 		AF94C68C285AC30B0066B49C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF94C68B285AC30B0066B49C /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		321085902864382B00662F66 /* BouncyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyView.swift; sourceTree = "<group>"; };
+		321085922864384700662F66 /* BouncyView+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BouncyView+SwiftUI.swift"; sourceTree = "<group>"; };
 		AF94C684285AC3090066B49C /* Quiz Speedrun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz Speedrun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF94C687285AC3090066B49C /* Quiz_SpeedrunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_SpeedrunApp.swift; sourceTree = "<group>"; };
 		AF94C689285AC3090066B49C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				AF94C689285AC3090066B49C /* ContentView.swift */,
 				AF94C695285AC4280066B49C /* QuizQuestion.swift */,
 				AF94C68B285AC30B0066B49C /* Assets.xcassets */,
+				321085902864382B00662F66 /* BouncyView.swift */,
+				321085922864384700662F66 /* BouncyView+SwiftUI.swift */,
 				AF94C68D285AC30B0066B49C /* Preview Content */,
 			);
 			path = "Quiz Speedrun";
@@ -142,6 +148,8 @@
 			files = (
 				AF94C696285AC4280066B49C /* QuizQuestion.swift in Sources */,
 				AF94C68A285AC3090066B49C /* ContentView.swift in Sources */,
+				321085932864384700662F66 /* BouncyView+SwiftUI.swift in Sources */,
+				321085912864382B00662F66 /* BouncyView.swift in Sources */,
 				AF94C688285AC3090066B49C /* Quiz_SpeedrunApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
