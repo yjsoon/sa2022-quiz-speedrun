@@ -7,6 +7,10 @@
 
 import Foundation
 
+enum OptionChoice {
+    case option1, option2, option3, option4
+}
+
 struct QuizQuestion {
     
     var title: String
@@ -15,5 +19,7 @@ struct QuizQuestion {
     var option2: String
     var option3: String
     var option4: String
+    
+    var correctOption: OptionChoice
     
 }
